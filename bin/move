@@ -8,3 +8,5 @@ board = [" "] * 9
 
 puts "Where would you like to go?"
 move(input_to_index(gets.strip))
+
+display_board(board)
